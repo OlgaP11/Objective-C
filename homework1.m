@@ -11,9 +11,9 @@ int main (int argc, const char * argv[])
         
         // double a, b, c;
         
-        // scanf("%f", a);
-        // scanf("%f", b);
-        // scanf("%f", c);
+        // scanf("%f", &a);
+        // scanf("%f", &b);
+        // scanf("%f", &c);
         
         // double d = b * b - 4 * a * c;
         
@@ -33,9 +33,9 @@ int main (int argc, const char * argv[])
         NSLog(@"Введите три целых числа.");
         int num1, num2, num3;
         
-        scanf("%d", num1);
-        scanf("%d", num2);
-        scanf("%d", num3);
+        scanf("%d", &num1);
+        scanf("%d", &num2);
+        scanf("%d", &num3);
         
         int max = num1;
         
